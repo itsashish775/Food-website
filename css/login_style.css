@@ -62,7 +62,7 @@ background-color: chartreuse;
 .submit:hover{
     color: rgb(15, 15, 15);
 background-color: rgb(255, 145, 0);
-font-size: medium;
+/* font-size: medium; */
 }
 
 .nav a {
