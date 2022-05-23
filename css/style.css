@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -5,21 +6,55 @@
 }
 .container header{
     padding: 15px 15px;
-    background-color: rgb(247, 247, 247);
+    background-color: rgba(189, 4, 206, 0.87);
     display: flex;
     align-items: center;
     margin: 5px;
-    justify-content: space-between;
+    justify-content: center;
+}
+@media screen and (max-width:829px) {
+    .head_nav{
+        display: none;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .left-bar{
+        display: none;
+    }
+    .containt{
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 100%;
+    }
 }
 .logo{
-float: left;
-display: inline;
+
+display: flex;
+align-items: center;
+
 }
 header .logo img{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 0px;
     border-radius: 115px;
-    width: 15%;
+    width: 10%;
+    position: relative;
+}
+.logo #lp1{
+    color:black;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: xx-large;
+}
+
+.logo #lp2{
+    color:rgb(235, 228, 228);
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: xx-large;
 }
 .head_nav ul{
     float: left;
@@ -57,6 +92,7 @@ header .logo img{
     width: 20%;
     color: aliceblue;
     margin-right: 1px;
+    
 }
 
 .main .left-bar ul{
@@ -113,6 +149,7 @@ margin: 15px 15px;
     margin-bottom: 4px;
     background: #b3125d;
     padding: 9px 7px;
+    color: aliceblue
 }
 .food .punjabi{
     display: flex;
@@ -133,7 +170,7 @@ margin: 15px 15px;
     margin-right: 2rem;
     margin-top: 3px;
     align-items: center;
-    border-bottom: 2px solid #b3125d;
+    
 }
 .punjabi img{
     width: 100%;

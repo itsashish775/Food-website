@@ -6,16 +6,35 @@
 }
 
 header {
-    background-color: rgb(247, 247, 247);
+    background-color: rgba(189, 4, 206, 0.87);;
     display: flex;
     padding: 15px 15px;
     justify-content: space-between;
     margin: 5px;
+    align-items: center;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+header .logo img{
+    /* border: 1px solid black; */
+    padding: 0px;
+    border-radius: 115px;
+    width: 10%;
+    position: relative;
+}
+.logo #lp1{
+    color:black;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: xx-large;
 }
 
-header a {
-    text-decoration: none;
-
+.logo #lp2{
+    color:rgb(235, 228, 228);
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: xx-large;
 }
 .sign{
     text-align: center;
